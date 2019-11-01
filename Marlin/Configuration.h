@@ -473,9 +473,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 21.73
-  #define DEFAULT_Ki 1.54
-  #define DEFAULT_Kd 76.55
+  #define DEFAULT_Kp 23.21
+  #define DEFAULT_Ki 2.08
+  #define DEFAULT_Kd 64.66
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -540,9 +540,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   //Ender3
-  #define  DEFAULT_bedKp 690.34
-  #define  DEFAULT_bedKi 111.47
-  #define  DEFAULT_bedKd 1068.83
+  #define  DEFAULT_bedKp 105.29
+  #define  DEFAULT_bedKi 19.60
+  #define  DEFAULT_bedKd 377.00
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -725,7 +725,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4[, E5]]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 98.9 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1625,7 +1625,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-#define SDSUPPORT
+//#define SDSUPPORT
 
 /**
  * SD CARD: SPI SPEED
