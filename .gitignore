@@ -178,7 +178,6 @@ cmake-build-*
 .pydevproject
 .settings
 .classpath
-.pio
 
 #Python
 __pycache__
